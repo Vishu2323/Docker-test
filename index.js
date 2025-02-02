@@ -49,7 +49,9 @@ const json = {
     }
   }
   
-
+app.get('/sample',(req,res)=>{
+    res.send(`hello from sample`)
+})
 app.get('/',(req,res)=>{
     res.send(`Hello`)
 })
